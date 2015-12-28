@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="500dp"
+    android:background="#aaa"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:clickable="true"
+    android:weightSum="2" >
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="标题一"
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        
+        android:background="#abc"
+        android:layout_weight="2"
+        android:text="这里是正文正文正文哈哈哈哈哈哈哈哈哈"
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+</LinearLayout>
